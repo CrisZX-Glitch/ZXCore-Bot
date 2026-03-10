@@ -1,0 +1,110 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【 ℟ 】ZXCore | OFFICIAL</title>
+    <style>
+        body {
+            margin: 0; padding: 0;
+            background: #000000;
+            color: #ffffff;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+
+        .container { padding: 60px 20px; }
+
+        .logo-bot {
+            width: 180px;
+            border-radius: 50%;
+            border: 2px solid #ff0000;
+            box-shadow: 0 0 30px #ff0000;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            color: #ff0000;
+            text-shadow: 3px 3px 0px #4a0000;
+            margin: 10px 0;
+        }
+
+        .btn-main {
+            display: block;
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ff0000;
+            color: black;
+            text-decoration: none;
+            font-weight: 900;
+            text-transform: uppercase;
+            border: 2px solid #ff0000;
+            transition: 0.3s;
+        }
+
+        .btn-main:hover {
+            background-color: transparent;
+            color: #ff0000;
+            box-shadow: 0 0 20px #ff0000;
+        }
+
+        .btn-secondary {
+            display: inline-block;
+            margin-top: 10px;
+            color: #888;
+            text-decoration: underline;
+            font-size: 0.9rem;
+            transition: 0.3s;
+        }
+
+        .btn-secondary:hover { color: #fff; }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #0a0a0a;
+            padding: 20px;
+            border: 1px solid #220000;
+            width: 250px;
+        }
+
+        h3 { color: #ff0000; margin-bottom: 5px; }
+        p { color: #666; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.imgur.com/8nKSTas.png" alt="ZXCore" class="logo-bot">
+        
+        <h1> ZXCore</h1>
+        <p style="color: #444;">[ MALEVOLENT DOMINATION SYSTEM ]</p>
+
+        <a href="https://discord.gg/H75PJz8HD" class="btn-main">1. JOIN THE SERVER</a>
+
+        <a href="https://discord.com/oauth2/authorize?client_id=1480233826910474461&permissions=8&integration_type=0&scope=bot" class="btn-secondary">Already in? Add To Your Server</a>
+
+        <div class="features">
+            <div class="card">
+                <h3>DISMANTLE</h3>
+                <p>Complete wipe of target channels and structures.</p>
+            </div>
+            <div class="card">
+                <h3>CLEAVE</h3>
+                <p>Deep incision into server roles and permissions.</p>
+            </div>
+            <div class="card">
+                <h3>DOMAIN</h3>
+                <p>Absolute control over the discord environment.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
